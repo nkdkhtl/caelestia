@@ -31,13 +31,8 @@ Item {
         onCurrentIndexChanged: root.state.currentTab = currentIndex
 
         Tab {
-            iconName: "cloud"
-            text: qsTr("Weather")
-        }
-
-        Tab {
-            iconName: "speed"
-            text: qsTr("Performance")
+            iconName: "dashboard"
+            text: qsTr("Dashboard")
         }
 
         Tab {
@@ -46,8 +41,13 @@ Item {
         }
 
         Tab {
-            iconName: "dashboard"
-            text: qsTr("Dashboard")
+            iconName: "speed"
+            text: qsTr("Performance")
+        }
+
+        Tab {
+            iconName: "cloud"
+            text: qsTr("Weather")
         }
 
         // Tab {

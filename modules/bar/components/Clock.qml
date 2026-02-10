@@ -14,7 +14,6 @@ Row {
 
     Loader {
         anchors.verticalCenter: parent.verticalCenter
-
         active: Config.bar.clock.showIcon
         visible: active
 
@@ -28,7 +27,7 @@ Row {
         id: text
 
         anchors.verticalCenter: parent.verticalCenter
-
+        
         horizontalAlignment: StyledText.AlignHCenter
         text: Time.format(Config.services.useTwelveHourClock ? "hh:mm A" : "hh:mm")
         font.pointSize: Appearance.font.size.smaller
