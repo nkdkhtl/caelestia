@@ -81,7 +81,7 @@ Item {
 
     AppDb {
         id: allAppsDb
-
+        favouriteApps: Config.launcher.favouriteApps
         path: `${Paths.state}/apps.sqlite`
         entries: DesktopEntries.applications.values
     }
